@@ -1,0 +1,264 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+/*----------------------------------------Header--------------------------------------------------------------------------------*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+p {
+  color: black;
+  font-size: 20px;
+  margin-top: 30px;
+}
+
+a {
+  font-size: 18px;
+}
+
+html {
+  font-size: 18px;
+  background-size: cover;
+  font-family: "Montserrat", sans-serif;
+}
+
+.logo {
+  color: rgb(0, 170, 255);
+  font-weight: bold;
+  font-size: 32px;
+  margin-left: 100px;
+  margin-right: 200px;
+}
+
+.navbar {
+  margin-top: 50px;
+}
+
+.navlink {
+  color: black;
+  font-size: 20px;
+  margin: 20px;
+  padding: 10px;
+}
+
+.fiolet {
+  color: blueviolet;
+}
+
+.navlink-join {
+  margin-left: 30px;
+  display: inline-block;
+  padding: 20px 60px;
+  background-color: blueviolet;
+  color: #fff;
+  border-radius: 50px;
+}
+
+/*----------------------------------------Welcome-------------------------------------------------------------------------------------------*/
+.welcome_text {
+  margin: 150px;
+  font-size: 50px;
+  color: black;
+  float: left;
+}
+
+.welcome_button {
+  margin-top: 40px;
+  font-size: 18px;
+  display: inline-block;
+  padding: 20px 60px;
+  background-color: blueviolet;
+  color: #fff;
+  border-radius: 50px;
+}
+
+.welcome_image {
+  display: flex;
+  width: 500px;
+  justify-content: space-around;
+  margin: 100px;
+}
+
+/*---------------------------------------Watch-------------------------------------------------------------------------------------------*/
+
+.watch {
+  margin: 150px;
+  font-size: 50px;
+  float: right;
+}
+
+.watch_text {
+  margin-left: 800px;
+}
+
+.watch_texth {
+  font-size: 50px;
+}
+
+.watch_learn {
+  color: blueviolet;
+}
+
+.watch_video {
+  float: left;
+}
+
+.video {
+  margin-top: -250px;
+}
+
+/*--------------------------------------------Advantages--------------------------------------------------------------------------------------*/
+.advantage_img {
+  width: 200px;
+  height: 220px;
+  margin: 20px;
+  padding: 20px;
+}
+
+.advantage {
+  display: inline-block;
+  align-items: center;
+  border: 2px solid gray;
+  margin: 20px;
+  border-radius: 30px;
+  text-align: center;
+  margin-top: 60px;
+}
+
+.advantages {
+  margin-left: 300px;
+}
+
+.advantage_h {
+  text-align: center;
+  margin-right: 390px;
+}
+
+/*----------------------------------------------Prices----------------------------------------------------------------------------------------*/
+
+.premium_button {
+  margin-top: 40px;
+  font-size: 18px;
+  display: inline-block;
+  padding: 20px 60px;
+  background-color: goldenrod;
+  color: #fff;
+  border-radius: 50px;
+}
+
+.pricing {
+  display: flex;
+  flex-direction: row;
+}
+
+.price {
+  display: inline-block;
+  align-items: center;
+  border: 2px solid gray;
+  margin: 20px;
+  border-radius: 30px;
+  text-align: center;
+  margin-top: 160px;
+  margin-left: 250px;
+  width: 350px;
+  height: 500px;
+  padding: 40px;
+  line-height: 31px;
+}
+
+.pricing_h {
+  text-align: center;
+  margin-right: 90px;
+  margin-top: 50px;
+}
+
+.basic {
+  color: blueviolet;
+}
+
+.premium {
+  color: goldenrod;
+}
+
+/*-------------------------------------Form-------------------------------------------------------------------------------*/
+
+
+.form{
+  width: 800px;
+  height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+  padding: 70px;
+}
+
+.input_group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.form_h{
+  padding: 50px;
+}
+
+/*--------------------------------------Footer--------------------------------------------------------------------------------*/
+
+.footer_h{
+  color: #fff;
+}
+
+footer{
+  background: rgb(0,0,0);
+  background: linear-gradient(127deg, rgba(0,0,0,1) 0%, rgba(120,120,120,1) 35%, rgba(0,0,0,1) 100%);
+  margin-top: 300px;
+  width: 100%;
+  justify-content: space-evenly;
+  height: 45vh;
+}
+
+.footer_left{
+  line-height: 50px;
+  padding: 40px;
+  margin-left: 100px;
+  display: flex;
+  float: left;
+  flex-direction: column;
+}
+
+.footer_right{
+  line-height: 50px;
+  padding: 40px;
+  margin-left: 100px;
+  display: flex;
+  float: right;
+  flex-direction: column;
+  margin-right: 100px;
+}
+
+.footer_links{
+  color: rgb(191, 191, 191);
+}
+
+.footer_links:hover{
+  text-decoration: underline;
+}
+
+.brand_img{
+  width: 35px;
+  height: 35px; 
+  margin-top: 270px;
+}
+
+.brands_logo{
+  margin-left: 650px;
+}
+
+.icon{
+  width: 35px;
+  height: 35px;
+  padding: 5px;
+}
+
