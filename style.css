@@ -10,12 +10,12 @@
 
 p {
   color: black;
-  font-size: 20px;
-  margin-top: 30px;
+  font-size: 1.1rem;
+  margin-top: 2em;
 }
 
 a {
-  font-size: 18px;
+  font-size: 1em;
 }
 
 html {
@@ -27,20 +27,20 @@ html {
 .logo {
   color: rgb(0, 170, 255);
   font-weight: bold;
-  font-size: 32px;
-  margin-left: 100px;
-  margin-right: 200px;
+  font-size: 2rem;
+  margin-left: 6vw;
+  margin-right: 12vw;
 }
 
 .navbar {
-  margin-top: 50px;
+  margin-top: 3em;
 }
 
 .navlink {
   color: black;
-  font-size: 20px;
-  margin: 20px;
-  padding: 10px;
+  font-size: 1.1rem;
+  margin: 1.2em;
+  padding: 0.7em;
 }
 
 .fiolet {
@@ -48,9 +48,9 @@ html {
 }
 
 .navlink-join {
-  margin-left: 30px;
+  margin-left: 2em;
   display: inline-block;
-  padding: 20px 60px;
+  padding: 1.1em 3.3em;
   background-color: blueviolet;
   color: #fff;
   border-radius: 50px;
@@ -58,17 +58,17 @@ html {
 
 /*----------------------------------------Welcome-------------------------------------------------------------------------------------------*/
 .welcome_text {
-  margin: 150px;
-  font-size: 50px;
+  margin: 8vw;
+  font-size: 2.7rem;
   color: black;
   float: left;
 }
 
 .welcome_button {
-  margin-top: 40px;
-  font-size: 18px;
+  margin-top: 2em;
+  font-size: 1em;
   display: inline-block;
-  padding: 20px 60px;
+  padding: 1.1em 3.3em;
   background-color: blueviolet;
   color: #fff;
   border-radius: 50px;
@@ -76,25 +76,25 @@ html {
 
 .welcome_image {
   display: flex;
-  width: 500px;
+  width: 28vw;
   justify-content: space-around;
-  margin: 100px;
+  margin: 6vw;
 }
 
 /*---------------------------------------Watch-------------------------------------------------------------------------------------------*/
 
 .watch {
-  margin: 150px;
-  font-size: 50px;
+  margin: 8vw;
+  font-size: 2.7rem;
   float: right;
 }
 
 .watch_text {
-  margin-left: 800px;
+  margin-left: 45vw;
 }
 
 .watch_texth {
-  font-size: 50px;
+  font-size: 2.7rem;
 }
 
 .watch_learn {
@@ -106,43 +106,45 @@ html {
 }
 
 .video {
-  margin-top: -250px;
+  margin-top: -14vw;
 }
 
 /*--------------------------------------------Advantages--------------------------------------------------------------------------------------*/
 .advantage_img {
-  width: 200px;
-  height: 220px;
-  margin: 20px;
-  padding: 20px;
+  width: 11vw;
+  height: 12vw;
+  min-width: 120px;
+  min-height: 120px;
+  margin: 1.2em;
+  padding: 1.2em;
 }
 
 .advantage {
   display: inline-block;
   align-items: center;
   border: 2px solid gray;
-  margin: 20px;
-  border-radius: 30px;
+  margin: 1.2em;
+  border-radius: 2em;
   text-align: center;
-  margin-top: 60px;
+  margin-top: 3.5em;
 }
 
 .advantages {
-  margin-left: 300px;
+  margin-left: 17vw;
 }
 
 .advantage_h {
   text-align: center;
-  margin-right: 390px;
+  margin-right: 22vw;
 }
 
 /*----------------------------------------------Prices----------------------------------------------------------------------------------------*/
 
 .premium_button {
-  margin-top: 40px;
-  font-size: 18px;
+  margin-top: 2em;
+  font-size: 1em;
   display: inline-block;
-  padding: 20px 60px;
+  padding: 1.1em 3.3em;
   background-color: goldenrod;
   color: #fff;
   border-radius: 50px;
@@ -151,27 +153,30 @@ html {
 .pricing {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
 }
 
 .price {
   display: inline-block;
   align-items: center;
   border: 2px solid gray;
-  margin: 20px;
-  border-radius: 30px;
+  margin: 1.2em;
+  border-radius: 2em;
   text-align: center;
-  margin-top: 160px;
-  margin-left: 250px;
-  width: 350px;
-  height: 500px;
-  padding: 40px;
-  line-height: 31px;
+  margin-top: 9em;
+  margin-left: 14vw;
+  width: 22vw;
+  min-width: 220px;
+  height: 32vw;
+  min-height: 300px;
+  padding: 2.2em;
+  line-height: 1.7em;
 }
 
 .pricing_h {
   text-align: center;
-  margin-right: 90px;
-  margin-top: 50px;
+  margin-right: 5vw;
+  margin-top: 2.7em;
 }
 
 .basic {
@@ -184,24 +189,24 @@ html {
 
 /*-------------------------------------Form-------------------------------------------------------------------------------*/
 
-
 .form{
-  width: 800px;
-  height: 300px;
+  max-width: 48vw;
+  min-width: 300px;
+  height: auto;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 100px;
-  padding: 70px;
+  margin-top: 5.5em;
+  padding: 3.8em;
 }
 
 .input_group {
   display: flex;
   flex-direction: column;
-  margin-bottom: 20px;
+  margin-bottom: 1.1em;
 }
 
 .form_h{
-  padding: 50px;
+  padding: 2.7em;
 }
 
 /*--------------------------------------Footer--------------------------------------------------------------------------------*/
@@ -213,29 +218,24 @@ html {
 footer{
   background: rgb(0,0,0);
   background: linear-gradient(127deg, rgba(0,0,0,1) 0%, rgba(120,120,120,1) 35%, rgba(0,0,0,1) 100%);
-  margin-top: 300px;
+  margin-top: 16em;
   width: 100%;
   justify-content: space-evenly;
-  height: 45vh;
+  height: 25vh;
 }
 
-.footer_left{
-  line-height: 50px;
-  padding: 40px;
-  margin-left: 100px;
+.footer_left, .footer_right{
+  line-height: 2.7em;
+  padding: 2.2em;
+  margin-left: 5vw;
   display: flex;
   float: left;
   flex-direction: column;
 }
 
 .footer_right{
-  line-height: 50px;
-  padding: 40px;
-  margin-left: 100px;
-  display: flex;
   float: right;
-  flex-direction: column;
-  margin-right: 100px;
+  margin-right: 5vw;
 }
 
 .footer_links{
@@ -247,18 +247,86 @@ footer{
 }
 
 .brand_img{
-  width: 35px;
-  height: 35px; 
-  margin-top: 270px;
+  width: 2em;
+  height: 2em; 
+  margin-top: 15em;
 }
 
 .brands_logo{
-  margin-left: 650px;
+  margin-left: 36vw;
 }
 
 .icon{
-  width: 35px;
-  height: 35px;
-  padding: 5px;
+  width: 2em;
+  height: 2em;
+  padding: 0.3em;
 }
 
+/*--------------------------------------Адаптивность: медиазапросы----------------------------------------------------------*/
+@media (max-width: 1200px) {
+  .welcome_text, .watch, .advantages, .price {
+    margin-left: 4vw;
+    margin-right: 4vw;
+  }
+  .welcome_image {
+    width: 40vw;
+    margin: 4vw;
+  }
+  .price {
+    width: 35vw;
+    min-width: 180px;
+    height: 40vw;
+    min-height: 200px;
+  }
+}
+
+@media (max-width: 800px) {
+  .navbar, .pricing {
+    flex-direction: column;
+    align-items: center;
+  }
+  .welcome_text, .watch {
+    font-size: 2rem;
+    float: none;
+    margin: 2vw auto;
+    text-align: center;
+  }
+  .welcome_image {
+    width: 80vw;
+    margin: 2vw auto;
+  }
+  .advantage, .price {
+    width: 80vw;
+    margin-left: 0;
+    min-width: 150px;
+    height: auto;
+  }
+  .footer_left, .footer_right {
+    float: none;
+    margin: 1em auto;
+    align-items: center;
+  }
+  .brands_logo {
+    margin-left: 0;
+    text-align: center;
+  }
+}
+
+@media (max-width: 500px) {
+  html {
+    font-size: 14px;
+  }
+  .logo {
+    font-size: 1.2rem;
+    margin: 0 1em;
+  }
+  .form {
+    max-width: 95vw;
+    padding: 1em;
+  }
+  .welcome_text, .watch, .price, .advantage {
+    font-size: 1em;
+    margin: 1em;
+    width: 95vw;
+  }
+}
